@@ -60,7 +60,29 @@ section {
 .picture-02 {
   margin-top: 40px;
 }
-
+footer {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  }
+  .ft-left {
+  margin: 30px 70px;
+  }
+  .ft-right {
+  display: flex;
+  margin: 30px 40px; 
+  }
+  .ft-right div {
+  margin: 0px 15px;
+  }
+  .right {
+  display: flex;
+  }
+  .right div {
+    margin-left: 25px;
+    color: rgb(187, 58, 180);
+    font-weight: bold;
+    }
 
 @media (max-width: 991px) {
 li {
