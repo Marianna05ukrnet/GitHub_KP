@@ -47,7 +47,7 @@ body {
 }
 section {
   align-items: center;
-  margin: 40px 100px;
+  margin: 40px;
 }
 .red {
   color: red;
@@ -70,3 +70,12 @@ padding-left: 20px;
 background-color: #214931 
 }
 }
+@media (max-width: 1000px) {
+  .sp-01 {
+    display: flex; 
+    flex-direction: column;
+   }
+  .sp-02 {
+   display: flex;
+  }
+  }
