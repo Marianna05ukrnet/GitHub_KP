@@ -34,13 +34,16 @@ body {
   padding-top: 20px;
   text-align: justify;
 }
-.sp-01 {
+.sp {
   display: flex; 
  }
+.sp-01 {
+  height: 100%;
+}
 .sp-02 {
  display: flex;
- flex-direction: column;
  margin-left: 20px;
+ flex-direction: column;
 }
 #mainNav {
   margin: 0px 50px; 
@@ -79,9 +82,9 @@ footer {
   display: flex;
   }
   .right div {
-    margin-left: 25px;
-    font-weight: bold;
-    }
+  margin-left: 25px;
+  font-weight: bold;
+  }
 
 @media (max-width: 991px) {
 li {
@@ -92,11 +95,20 @@ background-color: #214931
 }
 }
 @media (max-width: 1000px) {
-  .sp-01 {
-    display: flex; 
+  .sp {
+    display: flex;
     flex-direction: column;
+   }
+   .sp-01 {
+    width: 100%;
    }
   .sp-02 {
    display: flex;
+   width: 100%;
+   margin-left: 0px;
   }
+  .picture-01 {
+    margin-top: 40px;
+  }
+ 
   }
